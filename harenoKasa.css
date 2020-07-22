@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0;
+}
+.display-size {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tablet-menu,#tablet-logo,.movile-top {
+    display: none;
+}
+
+.mainVisual {
+    width: 100%;
+    height: auto;
+}
+
+.mainVisual-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.top-visual {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+    background-color: #CC8C8C;
+}
+
+.header-online,.header-right {
+    float:right;
+}
+
+#onlineStore-btn {
+    display: inline-block;
+    font-family: "YuKyokasho Yoko" ;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    background-color: #5F5F5F;
+    padding: 0 30px;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-right li {
+    margin-top: 5px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.headerNav-link {
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: "YuKyokasho Yoko" ;
+}
+
+#header-logoImg {
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 70px;
+    position: relative;
+}
+
+.main-tanzaku {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    
+}
+
+.main-text {
+    width: 30%;
+    height: 600px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 140px;
+ 
+}
+
+#main-text {
+    width: 100%;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.4));
+}
+
+.sub-Visual {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.sub-VisualImg {
+    position: relative;
+}
+
+#sub-bg-right {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sub-bg-left {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#sub-text { 
+    padding-top: 60px;
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+}
+
+.concept {
+    width: 100%;
+    height: auto;
+}
+
+.concept-wrapper {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url("img/About_bg.png");
+    background-size: cover;
+}
+
+
+
+.concept-textWrapper {
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+#about-title {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: "YuGothic";
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    
+}
+
+.correction {
+    width: 100%;
+    height: auto;
+
+}
+
+.correction-wrapper {
+    width: 100%;
+    padding-top: 60px;
+}
+
+#collecyion-title {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.correction-wrapper p {
+    text-align: center;
+    font-family: "YuGothic";
+    font-size: 15px;
+    color: #555555;
+}
+
+.collection-img {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.rain-img {
+    width: 50%;
+    height: 50%;
+}
+
+.message {
+    width: 100%;
+    height: auto;
+}
+
+.message-wrapper {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 90px;
+     
+}
+
+#message-title {
+    margin: 0 auto;
+    display: block;
+}
+
+.message-wrapper p {
+    margin-top: 60px;
+    text-align: center;
+    font-family: "YuGothic";
+    font-weight: bold;
+    color: #555555;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.contact-lavel {
+    width: 160px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+#contact-btn {
+    text-decoration: none;
+    font-family: "YuGothic";
+    font-weight: 600;
+    font-size: 15px;
+    color: #555555; 
+    border: solid 2px #555555;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+#contact-btn:hover {
+    background-color: #555555; 
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #555555;
+    display: flex;
+}
+
+.footer-wrapper {
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.footer-right {
+    width: 100%;
+}
+
+.footer-nav-list {
+    float: right;
+    margin-top: 50px; 
+    margin-right: 40px;
+}
+
+
+.footer-nav {
+    height: 200px;
+    padding-right: 30px;
+    margin-top: 0; 
+    display: inline-block;
+}
+
+.footer-nav li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-navLink {
+    text-decoration: none;
+    font-family: "YuGothic";
+    font-size: 14px;
+    color: #B1B1B1;
+}
+
+.footer-navLink:hover {
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-family: "YuGothic";
+    font-size: 14px;
+}
